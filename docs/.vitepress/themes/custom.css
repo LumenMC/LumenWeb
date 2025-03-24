@@ -1,0 +1,58 @@
+/* ==== Brand Colors ==== */
+:root {
+    --vp-c-brand: #7b94d6;
+    --vp-c-brand-light: #9fafe4;
+    --vp-c-brand-lighter: #c5cff0;
+    --vp-c-brand-dark: #5d76b3;
+    --vp-c-brand-darker: #405a94;
+  
+    /* Optional: customize text, background and code block styles */
+    --vp-c-bg: #ffffff;
+    --vp-c-bg-alt: #f9f9f9;
+    --vp-c-border: #e2e8f0;
+    --vp-c-text: #2c3e50;
+    --vp-c-text-light: #4b5563;
+  
+    /* Code blocks */
+    --vp-code-block-bg: #f3f4f6;
+    --vp-code-block-border: #e5e7eb;
+  }
+  
+  /* ==== Dark Mode Overrides ==== */
+  .dark {
+    --vp-c-brand: #7b94d6;
+    --vp-c-brand-light: #a1b2e4;
+    --vp-c-brand-lighter: #cfdaf5;
+    --vp-c-brand-dark: #5d76b3;
+    --vp-c-brand-darker: #3c4e87;
+  
+    --vp-c-bg: #1e1e20;
+    --vp-c-bg-alt: #2a2a2d;
+    --vp-c-border: #3f3f46;
+    --vp-c-text: #e5e7eb;
+    --vp-c-text-light: #9ca3af;
+  
+    --vp-code-block-bg: #2d2d31;
+    --vp-code-block-border: #3f3f46;
+  }
+  
+  /* ==== Optional: Tweak buttons and highlights ==== */
+  .VPButton.brand {
+    background-color: var(--vp-c-brand);
+    border-color: var(--vp-c-brand-dark);
+  }
+  
+  .VPButton.brand:hover {
+    background-color: var(--vp-c-brand-dark);
+    border-color: var(--vp-c-brand-darker);
+  }
+  
+  /* ==== Optional: Add custom font ==== */
+  /*
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  
+  :root {
+    --vp-font-family-base: 'Inter', sans-serif;
+  }
+  */
+  
