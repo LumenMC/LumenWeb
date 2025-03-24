@@ -5,6 +5,9 @@ hero:
   name: Lumen
   text: Fast, clean docs for your Minecraft server
   tagline: Built with VitePress ✨
+  image:
+    src: /logo.png
+    alt: Lumen logo
   actions:
     - theme: brand
       text: Get Started
@@ -23,5 +26,3 @@ features:
     title: Dark Mode
     details: Built-in dark mode toggle with clean defaults.
 ---
-
-<!-- This is the homepage using layout: home -->
